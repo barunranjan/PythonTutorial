@@ -64,7 +64,11 @@
 #     print("not a co-prime number and hcf is {}".format(hcf))
 
 
-# Q6 Python script to print all prime factor of given number.
+# Q6 Python script to print first N odd natural number in reverse order using range function in loop.
+x=int(input("enter the value"))
+for i in range(x+1,0,-1):
+    if i%2!=0:
+       print("even",i)
 
 
 
