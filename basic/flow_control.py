@@ -26,3 +26,6 @@
 #     print("{}, is positive".format(x))
 # else:
 #     print("{}, is negative".format(x))
+
+
+# The else block just after for/while is executed only when the loop is NOT terminated by a break statement.
