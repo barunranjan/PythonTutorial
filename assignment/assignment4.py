@@ -24,6 +24,8 @@
 #         print(x)
 #         break
 
+
+
 # Q3 Python script to print first N prime number. value of N taken from user.
 
 # x=int(input("enter the range"))
@@ -33,6 +35,18 @@
 #             break
 #     else:
 #         print(i)
+#                               OR
+# n=int(input("enter the number"))
+# x = 3
+# while n:
+#     for i in range(2,x):
+#         if x%i==0:
+#             x=x+1
+#             break
+#     else:
+#         print("{}".format(x), end=' ')
+#         x=x+1
+#         n=n-1
 
 
 # Q4 Python script to print prime number between two numberr.
@@ -65,10 +79,19 @@
 
 
 # Q6 Python script to print first N odd natural number in reverse order using range function in loop.
-x=int(input("enter the value"))
-for i in range(x+1,0,-1):
-    if i%2!=0:
-       print("even",i)
+# x=int(input("enter the value"))
+# for i in range(x+1,0,-1):
+#     if i%2!=0:
+#        print("even",i)
+
+
+x=int(input("enter"))
+for i in range(2,x):
+    for a in range(2,i):
+        if x%i==0 and i%a!=0:
+            print(i,end=',')
+
+
 
 
 
