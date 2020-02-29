@@ -40,5 +40,29 @@
 # d = input("enter today date").split('/')
 # print("type::",d)
 
-d,m,y = input("enter today date").split('/')
-print("type::",d,m,y, type(d))
+
+# Split function return a list
+
+# d= input("enter today date").split('/')
+# print("type::",d, type(d))
+
+# unpacking of above can be done by using multiple variable.
+# This is called unpacking
+
+# d,m,y = input("enter today date").split('/')
+# print("type::",d,m,y, type(d))
+
+
+# But suppose if we want to get the value in some desired format
+# then we can do that by the following way
+
+# a,b,c = [int(x) for x in input("enter date").split('/')]
+# print(a,b,c)
+
+
+
+
+# Reading multiple type of value
+
+x=[eval(x) for x in ("hgdh", 3+4j)]
+print(x)
