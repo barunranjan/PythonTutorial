@@ -21,3 +21,5 @@ s=Student(name='rahul', salery=50000, rollNo=22)
 s.talk()
 
 
+
+
